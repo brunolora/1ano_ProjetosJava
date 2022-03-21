@@ -1,0 +1,9 @@
+public class MensagemPadrao {
+	
+	private String mensagemAbertura;
+	
+	String geraMensagem() {
+		mensagemAbertura = "Bem vindo, todos vocês";
+		return mensagemAbertura;
+	}
+}

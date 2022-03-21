@@ -1,0 +1,56 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class CalculadoraTest {
+
+	@Test
+	public void testSomar3com8() {
+		int variavel1 = 3;
+		int variavel2 = 8;
+		int resultadoEsperado = 11;
+		CalculadoraTeste calc = new CalculadoraTeste();
+		int resultadoReal = calc.somar(variavel1, variavel2);
+		assertEquals(resultadoEsperado, resultadoReal);
+	}
+	
+	@Test
+	public void testSomar5com5() {
+		int variavel1 = 5;
+		int variavel2 = 5;
+		int resultadoEsperado = 10;
+		CalculadoraTeste calc = new CalculadoraTeste();
+		int resultadoReal = calc.somar(variavel1, variavel2);
+		assertEquals(resultadoEsperado, resultadoReal);
+	}
+	
+	@Test
+	public void testMultiplicar2com5() {
+		int variavel1 = 2;
+		int variavel2 = 5;
+		int resultadoEsperado = 10;
+		CalculadoraTeste calc = new CalculadoraTeste();
+		int resultadoReal = calc.multiplicar(variavel1, variavel2);
+		assertEquals(resultadoEsperado, resultadoReal);
+	}
+	
+	@Test
+	public void testSubtracao2com8() {
+		int variavel1 = 8;
+		int variavel2 = 2;
+		int resultadoEsperado = 6;
+		CalculadoraTeste calc = new CalculadoraTeste();
+		int resultadoReal = calc.subtrair(variavel1, variavel2);
+		assertEquals(resultadoEsperado, resultadoReal);
+	}
+	
+	@Test
+	public void testDividir2com10() {
+		int variavel1 = 2;
+		int variavel2 = 10;
+		int resultadoEsperado = 5;
+		CalculadoraTeste calc = new CalculadoraTeste();
+		int resultadoReal = calc.dividir(variavel1, variavel2);
+		assertEquals(resultadoEsperado, resultadoReal);
+	}
+}

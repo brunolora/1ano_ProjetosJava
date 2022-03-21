@@ -1,0 +1,13 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class MensagemPadraoTeste {
+
+	@Test
+	public void testeMensagemPadrao() {
+		MensagemPadraoTeste men = new MensagemPadraoTeste();
+		String resultadoEsperado = "Bem vindo, todos vocês";
+	}
+
+}

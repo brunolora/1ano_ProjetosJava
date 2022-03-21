@@ -1,0 +1,17 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class CalculadoraTest {
+
+	@Test
+	public void testSomar3com8() {
+		int variavel1 = 3;
+		int variavel2 = 8;
+		int resultadoEsperado = 11;
+		CalculadoraTeste calc = new CalculadoraTeste();
+		int resultadoReal = calc.somar(variavel1, variavel2);
+		assertEquals(resultadoEsperado, resultadoReal);
+	}
+
+}

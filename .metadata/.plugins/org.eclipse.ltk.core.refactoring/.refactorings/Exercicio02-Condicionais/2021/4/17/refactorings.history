@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;br.com.fiap.tds.view.Exercicio01&apos; to &apos;TesteTamanho&apos;&#x0D;&#x0A;- Original project: &apos;Exercicio02-Condicionais&apos;&#x0D;&#x0A;- Original element: &apos;br.com.fiap.tds.view.Exercicio01&apos;&#x0D;&#x0A;- Renamed element: &apos;br.com.fiap.tds.view.TesteTamanho&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Exercicio01&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;br.com.fiap.tds.view{Exercicio01.java[Exercicio01" matchStrategy="1" name="TesteTamanho" qualified="false" references="true" similarDeclarations="false" stamp="1619092010383" textual="false" version="1.0"/>
+</session>

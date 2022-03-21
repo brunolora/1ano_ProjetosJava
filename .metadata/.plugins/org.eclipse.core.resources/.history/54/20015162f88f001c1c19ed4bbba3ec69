@@ -1,0 +1,37 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class CalculadoraTest {
+
+	@Test
+	public void testSomar3com8() {
+		int variavel1 = 3;
+		int variavel2 = 8;
+		int resultadoEsperado = 11;
+		CalculadoraTeste calc = new CalculadoraTeste();
+		int resultadoReal = calc.somar(variavel1, variavel2);
+		assertEquals(resultadoEsperado, resultadoReal);
+	}
+	
+	@Test
+	public void testSomar5com5() {
+		int variavel1 = 5;
+		int variavel2 = 5;
+		int resultadoEsperado = 10;
+		CalculadoraTeste calc = new CalculadoraTeste();
+		int resultadoReal = calc.somar(variavel1, variavel2);
+		assertEquals(resultadoEsperado, resultadoReal);
+	}
+	
+	@Test
+	public void testMultiplicar2com5() {
+		int variavel1 = 2;
+		int variavel2 = 5;
+		int resultadoEsperado = 10;
+		CalculadoraTeste calc = new CalculadoraTeste();
+		int resultadoReal = calc.multiplicar(variavel1, variavel2);
+		assertEquals(resultadoEsperado, resultadoReal);
+	}
+
+}
